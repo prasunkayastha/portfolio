@@ -28,11 +28,7 @@
     </script>
     <title>Prasun Kayastha</title>
     <link rel="icon" type="image/icon" href="image/image/name.png">
-    <style>
-        body {
-            background-color: #2e2e35;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -41,16 +37,14 @@
         <!-- navbar -->
         <nav class="uk-navbar-container uk-navbar-transparent uk-light" uk-navbar>
             <div class="col-md-2 uk-navbar-left">
-                <img src="image/logo.png" alt="">
+                <img src="image/logo.png" alt="prasunkayasthalogo">
             </div>
             <div class="uk-navbar-right">
-
                 <ul class="uk-navbar-nav">
                     <li class="uk-active"><a href="#home">Home</a></li>
                     <li class="uk-active"><a href="#projects">Projects</a></li>
                     <li class="uk-active"><a href="#contact">Contact</a></li>
                     <li class="uk-active"><a href="#home">About</a></li>
-
                 </ul>
             </div>
         </nav>
@@ -59,7 +53,7 @@
         <div class="row uk-margin-large-top" id="home">
             <div class="col-md-4 uk-light">
                 <h1>Prasun Kayastha</h1>
-                <hr class="uk-divider-small" style="color: #FFB868;">
+                <hr class="uk-divider-small" id="abv-txt">
                 <ul class="uk-navbar-nav  uk-subnav-divider">
                     <li class="uk-active"><a href="https://www.instagram.com/kayasthaprasun/" target="_blank"
                             uk-icon="icon: instagram"></a></li>
@@ -74,14 +68,14 @@
                     </li>
                 </ul>
                 <p class="uk-margin-top">
-                    <a class="uk-button uk-button-default" style="color: #FFB868;" href="#contact">Contact Me</a>
+                    <a class="uk-button uk-button-default" id="button" href="#contact">Contact Me</a>
                 </p>
             </div>
             <div class="col-md-4">
                 <img src="image/PrasunKayastha.png" alt="image of Prasun Kayastha">
             </div>
             <div class="col-md-4 uk-light">
-                <h3 style="color: #FFB868;">Introduction</h3>
+                <h3 id="abv-txt">Introduction</h3>
                 <h1>Designer/Developer</h1>
                 <p>With a passion for creating visually stunning and user-friendly digital experiences. On this site,
                     you will find a selection of my work, including Academic Projects, Certificates, and Photo that I
@@ -95,33 +89,33 @@
     <!-- portfolio 1 -->
     <div class="uk-margin-large-top" style="background-color: #34343b;" id="Skills">
         <div class="container">
-            <div class="col-md-12">
-                <h4 class="text-center" style="color: #FFB868;">Skills</h4>
+            <div class="col-md-12 p-3">
+                <h4 class="text-center" id="abv-txt">Skills</h4>
                 <h1 class="text-center uk-light">What I Am Great At</h1>
             </div>
             <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match uk-margin-large-top" uk-grid>
                 <div>
                     <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
                         <img class="uk-align-center" src="image/camera.png" alt="">
-                        <h2 class="text-center">Photography</h2>
+                        <h2 class="text-center" id="txt">Photography</h2>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
                         <img class="uk-align-center" src="image/web.png" alt="">
-                        <h2 class="text-center">Web Development</h2>
+                        <h2 class="text-center" id="txt">Web Development</h2>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
                         <img class="uk-align-center" src="image/photoshop.png" alt="">
-                        <h2 class="text-center">Photoshop</h2>
+                        <h2 class="text-center" id="txt">Photoshop</h2>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
                         <img class="uk-align-center" src="image/program.png" alt="">
-                        <h2 class="text-center">Figma</h2>
+                        <h2 class="text-center" id="txt">Figma</h2>
                     </div>
                 </div>
             </div>
@@ -132,7 +126,7 @@
     <div class="uk-margin-large-top" style="background-color: #2e2e35">
         <div class="container">
             <div class="col-md-12">
-                <h4 class="text-center" style="color: #FFB868;">Certificates</h4>
+                <h4 class="text-center" id="abv-txt">Certificates</h4>
             </div>
             <div class="uk-child-width-1-3@m uk-margin-large-top" uk-grid uk-lightbox="animation: fade">
                 <div>
@@ -160,223 +154,220 @@
                 </div>
             </div>
         </div>
-        <!-- end of certificate -->
-        <!-- Projects -->
-        <div class="uk-margin-large-top" style="background-color: #2e2e35" id="projects">
+    </div>
+    <!-- end of certificate -->
+    <!-- Projects -->
+    <div class="uk-margin-large-top" style="background-color: #34343b;" id="projects">
+        <div class="container">
+            <div class="col-md-12 p-3">
+                <h4 class="text-center" id="abv-txt">Projects</h4>
+                <h1 class="text-center uk-light">Academic Projects</h1>
+            </div>
+            <div class="uk-child-width-1-3@m uk-margin-large-top" uk-grid>
+                <div>
+                    <a class="uk-inline" href="https://prasunkayastha.github.io/system/" target="_blank">
+                        <img src="image/proj logo/flake-202937.png" width="1800" height="1200" alt="">
+                    </a>
+                </div>
+
+                <div>
+                    <a class="uk-inline" href="https://prasunkayastha.github.io/fruitmandu/" target="_blank">
+                        <img src="image/proj logo/fruitmandu.png" width="1800" height="1200" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="#">
+                        <img src="image/proj logo/photoghar.png" width="1800" height="1200" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- end of projects -->
+        <!-- portfolio -->
+        <div class="uk-margin-large-top" style="background-color: #2e2e35">
             <div class="container">
-                <div class="col-md-12">
-                    <h4 class="text-center" style="color: #FFB868;">Projects</h4>
-                    <h1 class="text-center uk-light">Academic Projects</h1>
+                <div class="col-md-12 p-3">
+                    <h4 class="text-center" id="abv-txt">Portfolio</h4>
+                    <h1 class="text-center uk-light">My Works</h1>
                 </div>
-                <div class="uk-child-width-1-3@m uk-margin-large-top" uk-grid>
-                    <div>
-                        <a class="uk-inline" href="https://prasunkayastha.github.io/system/" target="_blank">
-                            <img src="image/proj logo/flake-202937.png" width="1800" height="1200" alt="">
-                        </a>
-                    </div>
-
-                    <div>
-                        <a class="uk-inline" href="https://prasunkayastha.github.io/fruitmandu/" target="_blank">
-                            <img src="image/proj logo/fruitmandu.png" width="1800" height="1200" alt="">
-                        </a>
-                    </div>
-                    <div>
-                        <a class="uk-inline" href="#">
-                            <img src="image/proj logo/photoghar.png" width="1800" height="1200" alt="">
-                        </a>
-                    </div>
-                </div>
-                <!-- end of projects -->
-                <!-- portfolio -->
-                <div class="uk-margin-large-top" style="background-color: #2e2e35">
-                    <div class="container">
-                        <div class="col-md-12">
-                            <h4 class="text-center" style="color: #FFB868;">Portfolio</h4>
-                            <h1 class="text-center uk-light">My Works</h1>
-                        </div>
-                        <ul class="nav nav-tabs border-0 justify-content-center" id="myTab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-                                    data-bs-target="#home-tab-pane" type="button" role="tab"
-                                    aria-controls="home-tab-pane" aria-selected="true">Photography</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-                                    data-bs-target="#profile-tab-pane" type="button" role="tab"
-                                    aria-controls="profile-tab-pane" aria-selected="false">UI Design</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="youtube" data-bs-toggle="tab"
-                                    data-bs-target="#youtube-pane" type="button" role="tab" aria-controls="youtube-pane"
-                                    aria-selected="false">Youtube Videos</button>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
-                                aria-labelledby="home-tab" tabindex="0">
-                                <div class="row uk-child-width-1-4@m" id="photography" uk-grid>
-                                    <div class="col-md-3">
-                                        <img src="image/image/PK_flower202114.jpg" alt="" class="uk-margin-small-top">
-                                        <img src="image/image/PK_flower202115.jpg" alt="" class="uk-margin-small-top">
-                                        <img src="image/image/PK_flower202122.jpg" alt="" class="uk-margin-small-top">
-                                        <img src="image/image/PK_flower202123.jpg" alt="" class="uk-margin-small-top">
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="image/image/PK_flower202124.jpg" alt="" class="uk-margin-small-top">
-                                        <img src="image/image/PK_flower202125.jpg" alt="" class="uk-margin-small-top">
-                                        <img src="image/image/PK_flower202129.jpg" alt="" class="uk-margin-small-top">
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="image/image/PK_flower202118.jpg" alt="" class="uk-margin-small-top">
-                                        <img src="image/image/PK_flower202119.jpg" alt="" class="uk-margin-small-top">
-                                        <img src="image/image/PK_flower202128.jpg" alt="" class="uk-margin-small-top">
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="image/image/PK_flower202120.jpg" alt="" class="uk-margin-small-top">
-                                        <img src="image/image/PK_flower202121.jpg" alt="" class="uk-margin-small-top">
-                                        <img src="image/image/PK_flower202126.jpg" alt="" class="uk-margin-small-top">
-                                    </div>
-                                </div>
+                <ul class="nav nav-tabs border-0 justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                            data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                            aria-selected="true">Photography</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+                            aria-selected="false">UI Design</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="youtube" data-bs-toggle="tab" data-bs-target="#youtube-pane"
+                            type="button" role="tab" aria-controls="youtube-pane" aria-selected="false">Youtube
+                            Videos</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                        tabindex="0">
+                        <div class="row uk-child-width-1-4@m" id="photography" uk-grid>
+                            <div class="col-md-3">
+                                <img src="image/image/PK_flower202114.jpg" alt="" class="uk-margin-small-top">
+                                <img src="image/image/PK_flower202115.jpg" alt="" class="uk-margin-small-top">
+                                <img src="image/image/PK_flower202122.jpg" alt="" class="uk-margin-small-top">
+                                <img src="image/image/PK_flower202123.jpg" alt="" class="uk-margin-small-top">
                             </div>
-                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel"
-                                aria-labelledby="profile-tab" tabindex="0">
-                                <div class="row uk-child-width-1-4@m" uk-grid>
-                                    <div class="col-md-4">
-                                        <img src="image/UI design/frame1.jpg" alt="" class="uk-margin-small-top">
-                                    </div>
-                                    <div class="col-md-4">
-                                        <img src="image/UI design/Frame 2.jpg" alt="" class="uk-margin-small-top">
-                                    </div>
-                                    <div class="col-md-4">
-                                        <img src="image/UI design/Frame 3.jpg" alt="" class="uk-margin-small-top">
-                                    </div>
-                                </div>
+                            <div class="col-md-3">
+                                <img src="image/image/PK_flower202124.jpg" alt="" class="uk-margin-small-top">
+                                <img src="image/image/PK_flower202125.jpg" alt="" class="uk-margin-small-top">
+                                <img src="image/image/PK_flower202129.jpg" alt="" class="uk-margin-small-top">
                             </div>
-                            <div class="tab-pane fade" id="youtube-pane" role="tabpanel" aria-labelledby="youtube"
-                                tabindex="0">
-                                <div class="row uk-child-width-1-4@m" uk-grid>
-                                    <div class="col-md-6">
-                                        <iframe width="550" height="310" src="https://www.youtube.com/embed/O253hTU4jvY"
-                                            title="YouTube video player" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            allowfullscreen></iframe>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <iframe width="550" height="310" class="uk-margin-small-left"
-                                            src="https://www.youtube.com/embed/uimGlbmGet4" title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                                <div class="row uk-child-width-1-4@m" uk-grid>
-                                    <div class="col-md-6">
-                                        <iframe width="550" height="310" src="https://www.youtube.com/embed/RF5QwcezKOI"
-                                            title="YouTube video player" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            allowfullscreen></iframe>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <iframe width="550" height="310" class="uk-margin-small-left"
-                                            src="https://www.youtube.com/embed/vVEdRR1KnmQ" title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                                <div class="row uk-child-width-1-4@m" uk-grid>
-                                    <div class="col-md-6">
-                                        <iframe width="550" height="310" src="https://www.youtube.com/embed/MAdE_7O0l8s"
-                                            title="YouTube video player" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            allowfullscreen></iframe>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <iframe width="550" height="310" class="uk-margin-small-left"
-                                            src="https://www.youtube.com/embed/NidSzWQfy9g" title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            allowfullscreen></iframe>
-                                    </div>
-                                </div>
+                            <div class="col-md-3">
+                                <img src="image/image/PK_flower202118.jpg" alt="" class="uk-margin-small-top">
+                                <img src="image/image/PK_flower202119.jpg" alt="" class="uk-margin-small-top">
+                                <img src="image/image/PK_flower202128.jpg" alt="" class="uk-margin-small-top">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="image/image/PK_flower202120.jpg" alt="" class="uk-margin-small-top">
+                                <img src="image/image/PK_flower202121.jpg" alt="" class="uk-margin-small-top">
+                                <img src="image/image/PK_flower202126.jpg" alt="" class="uk-margin-small-top">
                             </div>
                         </div>
-
                     </div>
-                </div>
-                <!-- end of portfolio -->
-                <!-- contact -->
-                <div class="section2 uk-margin-large-top" id="contact">
-                    <div class="container">
-                        <div class="col-md-12">
-                            <h4 class="text-center" style="color: #FFB868;">Contact Us</h4>
-                            <h1 class="text-center uk-light">Ways To Contact Me</h1>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                        tabindex="0">
+                        <div class="row uk-child-width-1-4@m" uk-grid>
+                            <div class="col-md-4">
+                                <img src="image/UI design/frame1.jpg" alt="" class="uk-margin-small-top">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="image/UI design/Frame 2.jpg" alt="" class="uk-margin-small-top">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="image/UI design/Frame 3.jpg" alt="" class="uk-margin-small-top">
+                            </div>
                         </div>
-                        <div class="row">
+                    </div>
+                    <div class="tab-pane fade" id="youtube-pane" role="tabpanel" aria-labelledby="youtube" tabindex="0">
+                        <div class="row uk-child-width-1-4@m" uk-grid>
                             <div class="col-md-6">
-                                <div class="col-md-9 uk-margin-small-top">
-                                    <div class="uk-card uk-card-default uk-card-body uk-card-hover"
-                                        style="background-color:  #34343b;">
-                                        <p class="text-center uk-light"><a href="mailto: pkayastha31@gmail.com"
-                                                uk-icon="icon: mail"></a> pkayastha31@gmail.com</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-9 uk-margin-small-top">
-                                    <div class="uk-card uk-card-default uk-card-body uk-card-hover"
-                                        style="background-color:  #34343b;">
-                                        <p class="text-center uk-light"><a uk-icon="icon: location"></a> Sirutar,
-                                            Bhaktapur
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-9 uk-margin-small-top">
-                                    <div class="uk-card uk-card-default uk-card-body uk-card-hover"
-                                        style="background-color: #34343b;">
-                                        <p class="text-center uk-light"><a href="https://github.com/prasunkayastha"
-                                                target="_blank" uk-icon="icon: github"></a> <a
-                                                href="https://github.com/prasunkayastha" target="_blank"
-                                                style="text-decoration:none;">prasunkayastha</a></p>
-                                    </div>
-                                </div>
+                                <iframe width="550" height="310" src="https://www.youtube.com/embed/O253hTU4jvY"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
                             </div>
                             <div class="col-md-6">
-                                <form action="https://formsubmit.co/pkayastha31@gmail.com" class="contact__form grid"
-                                    method="POST" id="contact__form">
-                                    <div class="contact__inputs grid">
-                                        <div class="uk-margin-small-top">
-                                            <input name="firstname" type="text" class="form-control"
-                                                placeholder="First Name" required>
-                                        </div>
-
-                                        <div class="uk-margin-small-top">
-                                            <input name="lastname" type="text" class="form-control"
-                                                placeholder="Last Name" required>
-                                        </div>
-                                    </div>
-                                    <div class="uk-margin-small-top">
-                                        <input name="email" type="email" class="form-control" placeholder="Email"
-                                            required>
-                                    </div>
-                                    <div class="uk-margin-small-top">
-                                        <input name="phone" type="number" class="form-control" placeholder="Phone">
-                                    </div>
-
-                                    <div class="uk-margin-small-top">
-                                        <textarea name="message" id="textarea" cols="0" rows="7" class="form-control"
-                                            placeholder="Message"></textarea>
-                                    </div>
-
-                                    <div class="uk-margin-small-top">
-                                        <button type="submit" class="btn btn-dark">Send Message<i
-                                                class="uil uil-message button__icon "></i>
-                                        </button>
-                                    </div>
-                                </form>
+                                <iframe width="550" height="310" class="uk-margin-small-left"
+                                    src="https://www.youtube.com/embed/uimGlbmGet4" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="row uk-child-width-1-4@m" uk-grid>
+                            <div class="col-md-6">
+                                <iframe width="550" height="310" src="https://www.youtube.com/embed/RF5QwcezKOI"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-6">
+                                <iframe width="550" height="310" class="uk-margin-small-left"
+                                    src="https://www.youtube.com/embed/vVEdRR1KnmQ" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="row uk-child-width-1-4@m" uk-grid>
+                            <div class="col-md-6">
+                                <iframe width="550" height="310" src="https://www.youtube.com/embed/MAdE_7O0l8s"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-6">
+                                <iframe width="550" height="310" class="uk-margin-small-left"
+                                    src="https://www.youtube.com/embed/NidSzWQfy9g" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- end of contact -->
+            </div>
+        </div>
+    </div>
+    <!-- end of portfolio -->
+    <!-- contact -->
+    <div class="section2 uk-margin-large-top" id="contact" style="background-color: #34343b;">
+        <div class="container">
+            <div class="col-md-12 p-3">
+                <h4 class="text-center" id="abv-txt">Contact Us</h4>
+                <h1 class="text-center uk-light">Ways To Contact Me</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="col-md-9 uk-margin-small-top">
+                        <div class="uk-card uk-card-default uk-card-body uk-card-hover"
+                            style="background-color:  #34343b;">
+                            <p class="text-center uk-light"><a href="mailto: pkayastha31@gmail.com"
+                                    uk-icon="icon: mail"></a> pkayastha31@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-9 uk-margin-small-top">
+                        <div class="uk-card uk-card-default uk-card-body uk-card-hover"
+                            style="background-color:  #34343b;">
+                            <p class="text-center uk-light"><a uk-icon="icon: location"></a> Sirutar,
+                                Bhaktapur
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-9 uk-margin-small-top">
+                        <div class="uk-card uk-card-default uk-card-body uk-card-hover"
+                            style="background-color: #34343b;">
+                            <p class="text-center uk-light"><a href="https://github.com/prasunkayastha" target="_blank"
+                                    uk-icon="icon: github"></a> <a href="https://github.com/prasunkayastha"
+                                    target="_blank" style="text-decoration:none;">prasunkayastha</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form action="https://formsubmit.co/pkayastha31@gmail.com" class="contact__form grid" method="POST"
+                        id="contact__form">
+                        <div class="contact__inputs grid">
+                            <div class="uk-margin-small-top">
+                                <input name="firstname" type="text" class="form-control" placeholder="First Name"
+                                    required>
+                            </div>
+
+                            <div class="uk-margin-small-top">
+                                <input name="lastname" type="text" class="form-control" placeholder="Last Name"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="uk-margin-small-top">
+                            <input name="email" type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="uk-margin-small-top">
+                            <input name="phone" type="number" class="form-control" placeholder="Phone">
+                        </div>
+                        <div class="uk-margin-small-top">
+                            <textarea name="message" id="textarea" cols="0" rows="7" class="form-control"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <div class="uk-margin-small-top">
+                            <button type="submit" class="btn btn-dark" id="button">Send Message<i
+                                    class="uil uil-message button__icon "></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of contact -->
 </body>
 
 </html>
