@@ -17,6 +17,9 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
 
+    <!-- FontAwesome for Camera Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6RDTCVQ991"></script>
     <script>
@@ -83,6 +86,12 @@
                     deliver high-quality work. Please take a look around and feel free to contact me with any questions
                     or for more information about my work. Thank you for visiting!</p>
             </div>
+        </div>
+        <div class="floating-button" id="switchToPhotography">
+            <!-- Camera icon -->
+            <i class="fa fa-camera"></i>
+            <!-- Hover text -->
+            <span>Switch to Photography Page</span>
         </div>
         <!-- end of home -->
     </div> <!-- container -->
@@ -324,3 +333,10 @@
 </body>
 
 </html>
+
+<script>
+    // Redirect to photography.html when the floating button is clicked
+    document.getElementById('switchToPhotography').addEventListener('click', function() {
+        window.location.href = 'photography.html';
+    });
+</script>
